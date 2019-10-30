@@ -32,7 +32,8 @@ end
 
 def matrix_lookup(matrix, row, column)
   # Return the matrix's content at row and column
-  lookups_matrix = [ENFIELD_TENNIS_ACADEMY[1][1]]
+  #lookups_matrix = [ENFIELD_TENNIS_ACADEMY[1][1]]
+  matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
